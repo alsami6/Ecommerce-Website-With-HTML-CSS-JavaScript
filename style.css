@@ -50,6 +50,11 @@ body{
 
 /* header */
 
+header{
+    position: sticky;
+    top: 0;
+}
+
 header nav{
     display: flex;
     align-items: center;
@@ -57,6 +62,7 @@ header nav{
     padding: 20px 80px;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
 }
 
 header nav ul{
@@ -77,4 +83,40 @@ header nav ul li a{
 
 header nav ul li a:hover{
     color: #088178;
+}
+
+
+/* hero section */
+
+main .hero{
+    background-image: url(img/hero4.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 20% right 0;
+    padding: 0px 80px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .hero h4{
+    padding-bottom: 15px;
+}
+
+main .hero h1{
+    color: #088178;
+}
+
+main .hero button{
+    background-image: url(img/button.png);
+    background-color: transparent;
+    cursor: pointer;
+    border: 0;
+    color: #088178;
+    padding: 14px 80px 14px 65px;
+    background-repeat: no-repeat;
+    font-weight: 700;
+    font-size: 15px;
 }
