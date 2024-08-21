@@ -169,3 +169,94 @@ main .feature .fe-box:nth-child(5) h6{
 main .feature .fe-box:nth-child(6) h6{
     background-color: #fff2e5;
 }
+
+
+/* products */
+
+
+main .product1{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+main .product1 h2, p{
+    display: flex;
+    justify-content: center;
+}
+
+main .product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+main .product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+main .product1 .pro img{
+    width: 100%;
+    display: block;
+    border-radius: 20px;
+}
+
+main .product1 .pro-container .pro .des{
+    text-align: start;
+    padding: 12px 8px;
+}
+
+main .product1 .pro-container .pro .des span{
+    color: #606063;
+    font-size: 1rem;
+}
+
+
+main .product1 .pro-container .pro h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 1rem;
+}
+
+main .product1 .pro-container .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25);
+}
+
+main .product1 .pro-container .pro .des h4{
+    padding-top: 7px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #088178;
+}
+
+
+main .product1 .pro-container .pro a i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: #088178;
+    text-align: center;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+
+.pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
