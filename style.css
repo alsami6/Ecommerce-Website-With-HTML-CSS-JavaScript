@@ -38,6 +38,10 @@ p{
 body{
     width: 100%;
 }
+/* 
+.choco{
+    display: flex;
+} */
 
 
 /* header */
@@ -181,7 +185,12 @@ main .product1{
     margin-bottom: 30px;
 }
 
-main h2, p{
+main .product1 h2, p{
+    display: flex;
+    justify-content: center;
+}
+
+main .product2 h2, p{
     display: flex;
     justify-content: center;
 }
@@ -261,6 +270,10 @@ main .pro-container .pro a i{
     justify-content: center;
 }
 
+.product2{
+    width: 90%;
+    margin: 0 auto;
+}
 
 
 main .banner{
@@ -306,4 +319,137 @@ main .banner button{
 main .banner button:hover{
     background-color: #088178;
     color: white;
+}
+
+
+
+
+
+main .sm-banner{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 9rem;
+}
+
+main .sm-banner .div1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+main .sm-banner .div1 .banner-box1{
+    background-image: url(img/banner/b17.jpg);
+    background-repeat: no-repeat;
+    width: 47%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2.5rem;
+    gap: 0.5rem;
+}
+
+
+main .sm-banner .div1 .banner-box2{
+    background-image: url(img/banner/b10.jpg);
+    background-repeat: no-repeat;
+    width: 47%;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2.5rem;
+}
+
+main .sm-banner .div1 button{
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+
+main .sm-banner .div1 button:hover{
+    background-color: #088178;
+    color: #000;
+}
+
+main .sm-banner h4{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+main .sm-banner h2{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+main .sm-banner span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+main .sm-banner .div2{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+main .sm-banner .div2 .box-1{
+    background-image: url(img/banner/b7.jpg);
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+    gap: 5px;
+    background-position: center;
+    background-size: cover;
+}
+main .sm-banner .div2 .box-2{
+    background-image: url(img/banner/b4.jpg);
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+    gap: 5px;
+    background-position: center;
+    background-size: cover;
+}
+main .sm-banner .div2 .box-3{
+    background-image: url(img/banner/b18.jpg);
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+    gap: 5px;
+    background-position: center;
+    background-size: cover;
 }
