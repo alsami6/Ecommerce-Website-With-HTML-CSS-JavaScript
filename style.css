@@ -196,7 +196,7 @@ main .product1 .pro{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
     margin: 15px 0;
     transition: 0.2s ease;
-    position: relative;
+    /* position: relative; */
 }
 
 main .product1 .pro:hover{
@@ -248,9 +248,9 @@ main .product1 .pro-container .pro a i{
     color: #088178;
     text-align: center;
     border: 1px solid #cce7d0;
-    position: absolute;
+    /* position: absolute; */
     bottom: 20px;
-    right: 10px;
+    right: 10px; 
 }
 
 
@@ -259,4 +259,49 @@ main .product1 .pro-container .pro a i{
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: center;
+}
+
+
+
+main .banner{
+    width: 100%;
+    padding: 40px 80px;
+    text-align: center;
+    background-image: url(img/banner/b2.jpg);
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+main .banner h4{
+    color: white;
+    font-size: 1rem;
+}
+
+main .banner h2{
+    color: white;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+main .banner h2 span{
+    color: #ef3636;
+}
+
+main .banner button{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+main .banner button:hover{
+    background-color: #088178;
+    color: white;
 }
