@@ -181,12 +181,12 @@ main .product1{
     margin-bottom: 30px;
 }
 
-main .product1 h2, p{
+main h2, p{
     display: flex;
     justify-content: center;
 }
 
-main .product1 .pro{
+main .pro{
     width: 23%;
     min-width: 250px;
     padding: 0.625rem 0.75rem;
@@ -199,34 +199,34 @@ main .product1 .pro{
     /* position: relative; */
 }
 
-main .product1 .pro:hover{
+main .pro:hover{
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
 }
 
-main .product1 .pro img{
+main .pro img{
     width: 100%;
     display: block;
     border-radius: 20px;
 }
 
-main .product1 .pro-container .pro .des{
+main .pro-container .pro .des{
     text-align: start;
     padding: 12px 8px;
 }
 
-main .product1 .pro-container .pro .des span{
+main .pro-container .pro .des span{
     color: #606063;
     font-size: 1rem;
 }
 
 
-main .product1 .pro-container .pro h5{
+main .pro-container .pro h5{
     padding-top: 7px;
     color: #1a1a1a;
     font-size: 1rem;
 }
 
-main .product1 .pro-container .pro .des i{
+main .pro-container .pro .des i{
     font-size: 12px;
     color: rgb(243, 181, 25);
 }
@@ -239,7 +239,7 @@ main .product1 .pro-container .pro .des h4{
 }
 
 
-main .product1 .pro-container .pro a i{
+main .pro-container .pro a i{
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -271,6 +271,8 @@ main .banner{
     align-items: center;
     background-size: cover;
     background-position: center;
+    margin-bottom: 9rem;
+    margin-top: 8rem;
 }
 
 main .banner h4{
