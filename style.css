@@ -39,6 +39,17 @@ body{
     width: 100%;
 }
 
+/* debug */
+
+.pro a {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    }
+    main .pro {
+    position: relative;
+    z-index:-1;
+    }
 
 /* header */
 
@@ -567,3 +578,10 @@ footer a{
     justify-content: left;
     text-align: left;
 }
+
+
+
+
+
+
+
